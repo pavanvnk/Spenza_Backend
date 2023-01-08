@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spenza Backend Assignment</title>
+</head>
+
+<body>
+  <h1>Click the button</h1>
+
+  <form action="/on" method="post">
+    <button type="submit" class="on">On</button>
+  </form>
+
+  <form action="/trigger" method="post">
+    <button type="submit" class="trigger">Trigger</button>
+  </form>
+
+  <form action="/off" method="post">
+    <button type="submit" class="off">Off</button>
+  </form>
+
+  <form action="/log" method="get">
+    <button type="submit">Generate Log File</button>
+  </form>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+<script src="event.js"></script>
+
+</html>
